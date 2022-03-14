@@ -6,7 +6,7 @@ for(let i in pronoun){
     for(let j in adj){
         for(let k in noun){
             for(let m in ext)
-                console.log(pronoun[1] + adj[j] + noun[k] + ext[m])
+                console.log(pronoun[i] + adj[j] + noun[k] + ext[m])
         }
     }
 }
